@@ -1,0 +1,22 @@
+{
+  "name": "F2-pig-latin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martypdx/F2-pig-latin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martypdx/F2-pig-latin/issues"
+  },
+  "homepage": "https://github.com/martypdx/F2-pig-latin",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
