@@ -12,26 +12,55 @@ h1 {
 	text-align: center;
 }
 
-#toTranslate {
+textarea {
 	width: 400px;
 	height: 200px;
 	font-size: 20px;
 	box-sizing: border-box;
-	border: 1px solid steelblue;
-	background: whitesmoke;
 }
 
-#submit-button {
+#toPiglatin {
+	border: 1px solid steelblue;
+	background: whitesmoke;
+	color: steelblue;
+}
+
+#toSpoon {
+	border: 1px solid whitesmoke;
+	background: steelblue;
+	color: white;
+}
+
+button {
 	width: 400px;
 	height: 40px;
 	border: 0;
 	cursor: pointer;
+}
+
+#pig-submit {
 	background-color: steelblue;
 	color: white;
 }
 
-#translated {
+#spoon-submit {
+	background-color: whitesmoke;
+	color: steelblue;
+	border: 1px solid steelblue;
+}
+
+p {
+	min-height: 100px;
+}
+
+#pigResult {
 	border: 1px solid steelblue;
 	background: whitesmoke;
-	min-height: 100px;
+	color: steelblue;
+}
+
+#spoonResult {
+	border: 1px solid whitesmoke;
+	background: steelblue;
+	color: white;
 }

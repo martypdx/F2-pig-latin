@@ -1,20 +1,37 @@
 <!doctype html>
 <html>
-	<title>Pig Latin Translator</title>
+	<title>Translators</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 <body>
 
 	<main>
 		<h1 style='padding: 20px;' id="color-header">Pig Latin Translator</h1>
 
-		<form>
+		<form id='pig-form'>
 
-			<textarea id='toTranslate' name='text'>hello world</textarea>
+			<textarea id='toPiglatin' name='text'></textarea>
 			<br>
-			<button id="submit-button" type="submit">Translate</button>
+			<button id="pig-submit" type="submit">Translate</button>
 		</form>
 
-		<p id='translated'></p>
+		<p id='pigResult'></p>
+
+		<h1 style='padding: 10px;' id="color-header">Spoonerism Translator</h1>
+		<h5 style='padding: 5px;' id="color-header">ONLY 2 and 3 word phrases supported</h5>
+		<h5 style='padding: 1px;' id="color-header">Examples:</h5>
+		<h5 style='padding: 1px;' id="color-header">Jelly Beans   =>   Belly Jeans</h5>
+		<h5 style='padding: 1px;' id="color-header">Nit Picking   =>   Pit Nicking</h5>
+		<h5 style='padding: 1px;' id="color-header">Wag my Tail   =>   Tail my Wag</h5>
+		<h5 style='padding: 1px;' id="color-header">Pack of Lies   =>   Lack of Pies</h5>
+		<h5 style='padding: 1px;' id="color-header">Tons of Soil   =>   Sons of Toil</h5>
+		<form id='spoon-form'>
+
+			<textarea id='toSpoon' name='text'></textarea>
+			<br>
+			<button id="spoon-submit" type="submit">Translate</button>
+		</form>
+
+		<p id='spoonResult'></p>
 	</main>
 
 

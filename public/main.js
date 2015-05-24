@@ -1,16 +1,31 @@
-$( 'form' ).on( 'submit', function(){
+$( '#pig-form' ).on( 'submit', function(){
 
 	var request = {
-		text: $( '#toTranslate' ).val(),
-		school: 'codefellows',
-		fish: [ 'tuna', 'bass', 'salmon' ]
+		text: $( '#toPiglatin' ).val()
 	};
 
-	$.post( 'translate', request, function(response) {
+	$.post( 'piglatin', request, function(response) {
 
-		$("#translated").text( response.piglatin );
+		$("#pigResult").text( response.text );
 
     });
 
 	return false;
 });
+
+
+$( '#spoon-form' ).on( 'submit', function(){
+
+  var request = {
+    text: $( '#toSpoon' ).val()
+  };
+
+  $.post( 'spoonerism', request, function(response) {
+
+    $("#spoonResult").text( response.text );
+
+    });
+
+  return false;
+});
+
